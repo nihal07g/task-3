@@ -1,0 +1,25 @@
+<net.skyscanner.backpack.card.BpkCardView
+    android:id="@+id/flightCard"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cornerStyle="large"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <net.skyscanner.backpack.text.BpkText
+            android:id="@+id/flightNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight Number: SK123"
+            style="@style/bpkTextHeading1" />
+
+    </LinearLayout>
+</net.skyscanner.backpack.card.BpkCardView>
